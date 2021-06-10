@@ -10,7 +10,7 @@ api = tweepy.API(auth)
 
 try:
     api.verify_credentials()
-    print("Authentication OK")
+    print("Authentication OK Verified ")
 except:
     print("Error during authentication")
 
